@@ -18,7 +18,6 @@ module Luhn
       i += 1
     end
     total = 0
-    i = 0
     numarr.each do |num|
       total += num
     end
